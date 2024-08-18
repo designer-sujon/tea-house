@@ -18,13 +18,16 @@
             extend: {
               colors: {
                 clifford: '#da373d',
-              }
+              },
+              fontFamily: {
+                manrope: ['Manrope', 'sans-serif'],
+              },
             }
           }
         }
       </script>
 </head>
-<body>
+<body class="font-manrope">
   <!-- Main Content -->
    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
     <!-- header section -->
@@ -183,10 +186,25 @@
          </div>
        </div>
       </div>
+      <!-- News Section Home Work -->
 
      </section>
-
    </main>
+
+   <footer class="bg-orange-100 h-32 text-gra-700 py-10 px-4 md:px-16">
+    <div class="w-9/12 mx-auto">
+      <div class="mb-8 flex justify-between">
+        <img src="images/cup.png" alt="">
+        <div class="flex items-center gap-2">
+          <h4>Ready to get Started</h4>
+          <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold">Get Started</button>
+
+        </div>
+
+      </div>
+    </div>
+
+   </footer>
     
 </body>
 </html>
